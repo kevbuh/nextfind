@@ -8,6 +8,12 @@
   height: 100vh;
 }
 
+.stores {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
