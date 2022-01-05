@@ -16,18 +16,23 @@ export default function Home() {
         <p className={styles.description}>Find the Next Big Thing</p>
 
         <p className={styles.description}>
-          Using AI models help you know whats next.
+          Using AI models to help you know what&apos;s next.
         </p>
         <div>
           <p className={styles.description}>Coming soon to:</p>
           <div className={styles.stores}>
             <Image
-              src="/V1PC3OfGlO4-P-joYRbD7_z12dmy5UnamZW7UnF9ulc.webp"
+              src="/Apple_logo_black.svg"
               alt="App Store"
-              width={150}
-              height={75}
+              width={120}
+              height={50}
             />
-            <Image src="/images.png" alt="Play Store" width={150} height={10} />
+            <Image
+              src="/Android_symbol_green_RGB.png"
+              alt="Play Store"
+              width={120}
+              height={50}
+            />
           </div>
         </div>
       </main>
